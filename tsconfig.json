@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "./dist",
+    "strict": true,
+    "lib": ["esnext"],
+    "esModuleInterop": true,
+    "declaration": true
+  },
+  "include": [
+    "handlers/**/*.ts",
+    "middleware/**/*.ts",
+    "modules/**/*.ts",
+    "config.ts",
+    "routes/**/*.ts",
+    "db.ts",
+    "server.ts"
+  ],
+  "exclude": ["node_modules"]
+}
