@@ -1,9 +1,9 @@
-import jwt from "jsonwebtoken";
-import dotenv from "dotenv";
 import { Request, Response, NextFunction } from "express";
-import bcrypt from "bcrypt";
 import "express-async-errors";
 import { CustomAPIError } from "../modules/errors";
+import jwt from "jsonwebtoken";
+import bcrypt from "bcrypt";
+import dotenv from "dotenv";
 dotenv.config();
 
 /***********

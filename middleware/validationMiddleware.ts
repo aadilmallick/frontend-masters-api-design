@@ -1,5 +1,4 @@
 import { NextFunction, Request, Response } from "express";
-import { body, validationResult } from "express-validator";
 import { fromZodError } from "zod-validation-error";
 import * as z from "zod";
 import { CustomAPIError } from "../modules/errors";

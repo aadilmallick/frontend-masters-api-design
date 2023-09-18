@@ -2,9 +2,9 @@ import { Router } from "express";
 import { createNewuser, signIn } from "../handlers/userHandlers";
 import { validate } from "../middleware/validationMiddleware";
 import { z } from "zod";
+import "express-async-errors";
 // you have to import this into every file with async middleware or handlers.
 // You can just do it in the router files
-import "express-async-errors";
 
 const router = Router();
 
